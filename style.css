@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Hiragino Kaku Gothic ProN", "游ゴシック体", YuGothic, sans-serif;
+  background: linear-gradient(135deg, #d4af37, #fff8dc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 90%;
+  width: 400px;
+}
+
+.title {
+  font-size: 2rem;
+  color: #4b3c02;
+  margin-bottom: 20px;
+}
+
+button {
+  background: linear-gradient(90deg, #ffd700, #f5deb3);
+  border: none;
+  color: #4b3c02;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #fff1a8, #fceabb);
+}
+
+.quote {
+  margin-top: 30px;
+  font-size: 1.4rem;
+  color: #4b3c02;
+  line-height: 1.6;
+}
